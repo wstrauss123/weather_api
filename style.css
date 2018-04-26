@@ -1,0 +1,30 @@
+body {
+  background-color: #003300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+	margin-top: 14rem;
+	margin-bottom: -2rem;
+	color: white;
+	font-size: 45px;
+}
+
+.condition1, .condition2, .condition3, .condition4, .coordinates {
+	color: white;
+	margin-top: 5rem;
+	font-size: 29px;
+}
+
+@media only screen and (max-width: 750px) {
+
+.title {
+	margin-top: 14rem;
+	margin-bottom: -2rem;
+	font-size: 37px;
+}
+
+.condition1, .condition2, .condition3, .conidition4 { 
+    margin-top: 5rem;
+	font-size: 24px;
+}
